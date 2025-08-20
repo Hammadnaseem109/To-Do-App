@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.mainnav {
+
+    display: flex;
+    width: 100vw;
+    height: 11vh;
+    position: fixed;
+    top: 0;
+    background-color: blue;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+
+.navdiv {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 60%;
+    align-items: center;
+
+
+}
+
+.mainul {
+
+
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+
+}
+
+.itemlist {
+
+    margin-left: 20px;
+    font-style: oblique;
+    font-size: x-large;
+
+}
+
+.fab {
+    position: fixed;
+    /* stays visible while scrolling */
+    right: 20px;
+    /* distance from right edge */
+    bottom: 20px;
+    /* distance from bottom edge */
+    width: 56px;
+    height: 56px;
+    border: 0;
+    border-radius: 50%;
+    background: #2563eb;
+    /* blue */
+    color: #fff;
+    font-size: 28px;
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.mainnotes {
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.notedia {
+
+    width: 30vw;
+    height: 50vh;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+.top-side {
+
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 20%;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.middle-side {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 60%;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.middle-side textarea {
+    width: 70%;
+    height: 90%;
+    text-align: left;
+
+}
+
+.bottom-side {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.btn {
+    width: 18%;
+    height: 50%;
+    border-radius: 10px;
+    background-color: wheat;
+    border: none;
+
+
+}
+
+.showcard {
+    margin: 0;
+    gap: 0;
+    display: grid;
+    margin-top: 12vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+.tilediv{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    flex-direction: row;
+    justify-content: center;
+    }
+.textdiv{
+    display: flex;
+    width: 100%;
+    height: 60%;
+}
+.btndiv{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 5px;
+}
+
+
+.notecard {
+
+    display: flex;
+    background-color: beige;
+    width: 90%;
+    height: 35vh;
+    flex-direction: column;
+    border-radius: 10px;
+    align-self: center;
+     margin: auto;
+     margin-top: 10px;
+
+}
+.compbtn{
+   
+    
+    width: 100px;
+    height: 30px;
+    
+}
+li:hover{
+    cursor: pointer;
+}

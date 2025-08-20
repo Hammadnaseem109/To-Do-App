@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do-TO-List</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="mainnav" id="mainnav">
+        <nav class="navdiv" id="nav">
+            <ul class="mainul">
+                <li class="itemlist" id="home" onclick="home()" >
+                
+                    Home
+                </li>
+                <li class="itemlist" id="tasklist" onclick="ontasklisk()" >
+                    Task List
+                </li>
+                <li class="itemlist" id="completed" onclick="completetask()">
+                    Done Task
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </div>
+    <div maindiv>
+        <div class="mainnotes" id="mnotediv">
+            <div class="notedia" id="notedia">
+
+                <div class="top-side">
+                    <input type="text" placeholder="Task Tilte" id="notetitle">
+                   
+
+                </div>
+                 <div class="middle-side">
+                    
+                        <textarea placeholder="Add the Notes" name="note" id="notetxt"></textarea>
+                  </div>
+    
+     
+              <div class="bottom-side">
+            <button class="btn" id="addedbtn" >
+                Submit
+            </button>
+            <button  class="btn" id="cancelbtn">
+                Cancel
+
+            </button>
+        </div>
+  
+  </div>
+
+        </div>
+  
+
+
+
+
+ <button class="fab" aria-label="Create" id="addnote" onclick="newnotes()">
+    +
+  </button>
+  
+    </div>
+    <div class="showcard" id="showcard">
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
