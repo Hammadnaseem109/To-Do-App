@@ -199,3 +199,24 @@ body {
 li:hover{
     cursor: pointer;
 }
+@media(max-width:900px){
+    .showcard{
+        margin-top: 10vh;
+        height: auto;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .mainnav{
+        height: 9vh;
+    }
+}
+@media(max-width:600px){
+    .showcard{
+                margin-top: 8.5vh;
+height: auto;
+
+        grid-template-columns: repeat(1,1fr);
+    }
+    .mainnav{
+        height: 7.5vh;
+    }
+}
