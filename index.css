@@ -85,7 +85,7 @@ body {
 
 .notedia {
 
-    width: 30vw;
+    width: 40vw;
     height: 50vh;
     background-color: aqua;
     border-radius: 10px;
@@ -214,6 +214,10 @@ li:hover{
     .mainnav{
         height: 9vh;
     }
+    .notedia{
+        width: 70vw ;
+        height: 60vh;
+    }
 }
 @media(max-width:600px){
     .showcard{
@@ -224,5 +228,9 @@ height: auto;
     }
     .mainnav{
         height: 7.5vh;
+    }
+     .notedia{
+        width: 90vw ;
+        height: 80vh;
     }
 }

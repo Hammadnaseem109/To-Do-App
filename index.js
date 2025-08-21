@@ -16,6 +16,8 @@ if (!firsttime) {
 }
 cancelbtn.addEventListener("click", () => {
     mnotediv.style.display = "none"
+showcard.style.display="grid"
+
 })
 renderingui()
 addedbtn.addEventListener("click", () => {
@@ -47,12 +49,15 @@ addedbtn.addEventListener("click", () => {
 function newnotes(){
 
             mnotediv.style.display = "flex";
+            showcard.style.display="none"
 
 }
 
 
 function renderingui() {
     showcard.innerHTML = ""
+                showcard.style.display="grid"
+
    if(notelist!==null){
      notelist.forEach(element => {
         let notecard = document.createElement("div")
