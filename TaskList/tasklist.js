@@ -51,7 +51,7 @@ tasklistt.forEach(element => {
 
 }
 function home(){
-    window.location.href="index.html"
+    window.location.href="../index.html"
 
 }
 function tasklist(){
@@ -59,6 +59,6 @@ function tasklist(){
 
 }
 function completetask(){
-        window.location.href = "completetask.html";
+        window.location.href = "../CompleteTask/completetask.html";
 
 }

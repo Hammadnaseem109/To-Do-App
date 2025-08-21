@@ -52,11 +52,11 @@ tasklistt.forEach(element => {
 
 }
 function home(){
-    window.location.href="index.html"
+ window.location.href="../index.html"
 
 }
 function tasklist(){
-    window.location.href = "tasklist.html";
+    window.location.href = "../TaskList/tasklist.html";
 
 }
 function completetask(){

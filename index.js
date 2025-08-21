@@ -99,11 +99,11 @@ function renderingui() {
    }
 }
 function ontasklisk(){
-    window.location.href = "tasklist.html";
+    window.location.href = "/TaskList/tasklist.html";
 
 }
 function completetask(){
-        window.location.href = "completetask.html";
+        window.location.href = "/CompleteTask/completetask.html";
 
 }
 function home(){
